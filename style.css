@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    background: #f7f7f7;
+    color: #1c1c1c;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0e1d2f;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-twitter {
+    height: 50px;
+    width: 50px;
+    color: black;
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button {
+    border-radius: 100px;
+    border: 2px solid #0e1d2f;
+    align-self: flex-end;
+    width: 150px;
+    height: 40px;
+    background-color: #ecf4ff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0e1d2f;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.boxes {
+    display: flex;
+}
+
+.projetos-box {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 42px;
+    color: #1c1c1c;
+    width: 80%;
+}
+
+.projetos-titulo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.projeto-itens {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1c1c1c;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.projeto-itens a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.conquistas-titulo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #1c1c1c;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.conquistas-box {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    box-shadow: 2px 2px 4px rgb(16 16 16 / 42%);
+    border-radius: 20px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 42px;
+    color: #1c1c1c;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conquista-itens {
+    text-decoration: none;
+    list-style-type: none;
+    color: #1c1c1c;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+    font-size: 45px;
+}
+
+.conquista-itens a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: 0.7s;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .projetos {
+    color: #1c1c1c;
+}
+
+.dark .tema button {
+    background: #1c1c1c;
+    color: #ffffff;
+}
